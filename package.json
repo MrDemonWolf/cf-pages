@@ -1,0 +1,23 @@
+{
+  "name": "cf-pages",
+  "version": "1.0.0",
+  "description": "[Live Demo](https://mrdemonwolf.github.io/cf-pages/)",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -o output.css --minify",
+    "watch:css": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDemonWolf/cf-pages.git"
+  },
+  "author": "MrDemonWolf, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrDemonWolf/cf-pages/issues"
+  },
+  "homepage": "https://github.com/MrDemonWolf/cf-pages#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
